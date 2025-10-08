@@ -57,4 +57,3 @@ public class PuzzleResult {
         this.fragment = fragment;
     }
 }
-
