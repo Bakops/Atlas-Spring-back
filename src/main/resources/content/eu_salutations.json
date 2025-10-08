@@ -1,0 +1,23 @@
+{
+  "salutations": [
+    {"greeting": "Hello", "language": "English", "country": "UK", "linguisticFamily": "Germanic"},
+    {"greeting": "Bonjour", "language": "French", "country": "France", "linguisticFamily": "Romance"},
+    {"greeting": "Hola", "language": "Spanish", "country": "Spain", "linguisticFamily": "Romance"},
+    {"greeting": "Ciao", "language": "Italian", "country": "Italy", "linguisticFamily": "Romance"},
+    {"greeting": "Hallo", "language": "German", "country": "Germany", "linguisticFamily": "Germanic"},
+    {"greeting": "Olá", "language": "Portuguese", "country": "Portugal", "linguisticFamily": "Romance"},
+    {"greeting": "Cześć", "language": "Polish", "country": "Poland", "linguisticFamily": "Slavic"},
+    {"greeting": "Hej", "language": "Swedish", "country": "Sweden", "linguisticFamily": "Germanic"},
+    {"greeting": "Γεια", "language": "Greek", "country": "Greece", "linguisticFamily": "Greek"},
+    {"greeting": "Tere", "language": "Estonian", "country": "Estonia", "linguisticFamily": "Uralic"}
+  ],
+  "familyMapping": {
+    "Germanic": "M",
+    "Romance": "O",
+    "Slavic": "N",
+    "Greek": "D",
+    "Uralic": "E"
+  },
+  "targetWord": "MONDE",
+  "hint": "Associez chaque famille linguistique à sa lettre pour former un mot de 5 lettres"
+}

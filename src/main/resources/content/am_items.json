@@ -1,0 +1,21 @@
+{
+  "items": [
+    {"name": "Laptop", "weightKg": 2, "volumeMl": 0, "isLiquid": false, "powerWh": 90},
+    {"name": "Shampoo", "weightKg": 0.5, "volumeMl": 350, "isLiquid": true},
+    {"name": "Powerbank", "weightKg": 0.3, "volumeMl": 0, "isLiquid": false, "powerWh": 150},
+    {"name": "Book", "weightKg": 1, "volumeMl": 0, "isLiquid": false},
+    {"name": "Water", "weightKg": 0.5, "volumeMl": 500, "isLiquid": true},
+    {"name": "Camera", "weightKg": 1, "volumeMl": 0, "isLiquid": false},
+    {"name": "Perfume", "weightKg": 0.2, "volumeMl": 200, "isLiquid": true},
+    {"name": "Tablet", "weightKg": 0.6, "volumeMl": 0, "isLiquid": false, "powerWh": 80}
+  ],
+  "rules": {
+    "maxCabinKg": 10,
+    "maxLiquidMl": 100,
+    "maxPowerWh": 100
+  },
+  "prohibitedItems": ["Powerbank"],
+  "expectedWeight": 8,
+  "question": "Calculez la somme des poids des objets autorisés en cabine",
+  "hint": "Calculez la somme des poids des objets autorisés en cabine"
+}

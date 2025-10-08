@@ -1,0 +1,16 @@
+{
+  "researchStations": [
+    {"name": "VOSTOK", "country": "Russie", "emoji": "🧊", "coordinates": {"latitude": -78.46, "longitude": 106.87}, "avgTempC": -55, "established": 1957, "personnel": 25},
+    {"name": "CONCORDIA", "country": "France/Italie", "emoji": "❄️", "coordinates": {"latitude": -75.10, "longitude": 123.33}, "avgTempC": -51, "established": 2005, "personnel": 16},
+    {"name": "AMUNDSEN-SCOTT", "country": "USA", "emoji": "🇺🇸", "coordinates": {"latitude": -90.00, "longitude": 0.00}, "avgTempC": -49, "established": 1956, "personnel": 150},
+    {"name": "MCMURDO", "country": "USA", "emoji": "🏔️", "coordinates": {"latitude": -77.85, "longitude": 166.67}, "avgTempC": -33, "established": 1955, "personnel": 1200}
+  ],
+  "categories": {
+    "extreme": "Température < -50°C",
+    "harsh": "Température entre -50°C et -20°C",
+    "moderate": "Température > -20°C"
+  },
+  "expectedAnswer": "VOSTOK",
+  "question": "Quelle est la station de recherche avec la température moyenne la plus basse ?",
+  "hint": "Comparez les températures moyennes de chaque station"
+}

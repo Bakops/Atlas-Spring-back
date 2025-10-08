@@ -1,0 +1,11 @@
+{
+  "currencies": [
+    {"country": "Maroc", "currency": "Dirham", "rateToEuro": 0.09},
+    {"country": "Égypte", "currency": "Livre", "rateToEuro": 0.05},
+    {"country": "Afrique du Sud", "currency": "Rand", "rateToEuro": 0.06},
+    {"country": "Nigeria", "currency": "Naira", "rateToEuro": 0.002},
+    {"country": "Kenya", "currency": "Shilling", "rateToEuro": 0.008}
+  ],
+  "expectedFinalAmount": 1234,
+  "hint": "Trouvez le code à 4 chiffres après conversion"
+}

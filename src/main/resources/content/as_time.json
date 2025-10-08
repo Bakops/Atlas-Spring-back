@@ -1,0 +1,11 @@
+{
+  "cities": [
+    {"name": "Tokyo", "code": "TYO", "offsetMinutes": 540, "description": "UTC+9"},
+    {"name": "Delhi", "code": "DEL", "offsetMinutes": 330, "description": "UTC+5:30"},
+    {"name": "Bangkok", "code": "BKK", "offsetMinutes": 420, "description": "UTC+7"}
+  ],
+  "validSlotsUTC": ["02:00", "02:30", "03:00", "03:30", "04:00"],
+  "correctAnswer": "03:00",
+  "question": "Trouvez un horaire UTC où toutes les villes sont entre 08:00 et 20:00 locales",
+  "hint": "Trouvez un horaire UTC où toutes les villes sont entre 08:00 et 20:00 locales"
+}

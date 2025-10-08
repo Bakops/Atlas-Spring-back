@@ -1,0 +1,25 @@
+{
+  "islands": [
+    {"name": "Fidji", "code": "FJI", "emoji": "🏝️", "country": "Fidji"},
+    {"name": "Nouvelle-Calédonie", "code": "NCL", "emoji": "🌴", "country": "France"},
+    {"name": "Vanuatu", "code": "VUT", "emoji": "🌋", "country": "Vanuatu"},
+    {"name": "Samoa", "code": "WSM", "emoji": "🌺", "country": "Samoa"}
+  ],
+  "distances": {
+    "FJI-NCL": 1200,
+    "FJI-VUT": 800,
+    "FJI-WSM": 1100,
+    "NCL-VUT": 500,
+    "NCL-WSM": 1800,
+    "VUT-WSM": 1300
+  },
+  "routes": [
+    {"name": "Route A", "path": ["FJI", "VUT", "NCL", "WSM"], "totalDistance": 2600},
+    {"name": "Route B", "path": ["FJI", "NCL", "VUT", "WSM"], "totalDistance": 2500},
+    {"name": "Route C", "path": ["FJI", "WSM", "VUT", "NCL"], "totalDistance": 3200},
+    {"name": "Route D", "path": ["NCL", "VUT", "FJI", "WSM"], "totalDistance": 2400}
+  ],
+  "correctRoute": "D",
+  "question": "Quelle est la route la plus courte pour visiter toutes les îles ?",
+  "hint": "Calculez les distances totales de chaque route"
+}
