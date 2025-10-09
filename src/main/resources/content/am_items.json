@@ -1,21 +1,85 @@
 {
   "items": [
-    {"name": "Laptop", "weightKg": 2, "volumeMl": 0, "isLiquid": false, "powerWh": 90},
-    {"name": "Shampoo", "weightKg": 0.5, "volumeMl": 350, "isLiquid": true},
-    {"name": "Powerbank", "weightKg": 0.3, "volumeMl": 0, "isLiquid": false, "powerWh": 150},
-    {"name": "Book", "weightKg": 1, "volumeMl": 0, "isLiquid": false},
-    {"name": "Water", "weightKg": 0.5, "volumeMl": 500, "isLiquid": true},
-    {"name": "Camera", "weightKg": 1, "volumeMl": 0, "isLiquid": false},
-    {"name": "Perfume", "weightKg": 0.2, "volumeMl": 200, "isLiquid": true},
-    {"name": "Tablet", "weightKg": 0.6, "volumeMl": 0, "isLiquid": false, "powerWh": 80}
+    {
+      "name": "Laptop",
+      "weightKg": 2,
+      "volumeMl": 0,
+      "isLiquid": false,
+      "powerWh": 50
+    },
+    {
+      "name": "Powerbank",
+      "weightKg": 1,
+      "volumeMl": 0,
+      "isLiquid": false,
+      "powerWh": 80
+    },
+    {
+      "name": "Water Bottle",
+      "weightKg": 1,
+      "volumeMl": 500,
+      "isLiquid": true
+    },
+    {
+      "name": "Perfume",
+      "weightKg": 0,
+      "volumeMl": 50,
+      "isLiquid": true
+    },
+    {
+      "name": "Camera",
+      "weightKg": 1,
+      "volumeMl": 0,
+      "isLiquid": false
+    },
+    {
+      "name": "Shampoo",
+      "weightKg": 0,
+      "volumeMl": 200,
+      "isLiquid": true
+    },
+    {
+      "name": "Book",
+      "weightKg": 1,
+      "volumeMl": 0,
+      "isLiquid": false
+    },
+    {
+      "name": "Lighter",
+      "weightKg": 0,
+      "volumeMl": 0,
+      "isLiquid": false
+    },
+    {
+      "name": "Scissors",
+      "weightKg": 0,
+      "volumeMl": 0,
+      "isLiquid": false
+    },
+    {
+      "name": "Sunscreen",
+      "weightKg": 0,
+      "volumeMl": 75,
+      "isLiquid": true
+    }
   ],
   "rules": {
-    "maxCabinKg": 10,
+    "maxCabinKg": 8,
     "maxLiquidMl": 100,
-    "maxPowerWh": 100
+    "maxPowerWh": 100,
+    "cabinNote": "Objets autorisés en cabine si respect des règles",
+    "soute": "Objets dépassant les limites vont en soute",
+    "prohibited": "Certains objets sont interdits partout"
   },
-  "prohibitedItems": ["Powerbank"],
-  "expectedWeight": 8,
-  "question": "Calculez la somme des poids des objets autorisés en cabine",
-  "hint": "Calculez la somme des poids des objets autorisés en cabine"
+  "prohibitedItems": [
+    "Lighter",
+    "Scissors"
+  ],
+  "obsoleteRule": {
+    "description": "Ancienne règle: liquides jusqu'à 200ml (obsolète depuis 2024)",
+    "isDecoy": true
+  },
+  "hint": "Additionnez seulement les poids des objets autorisés en cabine",
+  "expectedCabinWeightKg": 5,
+  "expectedCode": "0005"
 }

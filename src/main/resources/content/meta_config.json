@@ -1,5 +1,18 @@
 {
+  "fragmentsComposition": {
+    "description": "Les 3 fragments se combinent pour former la clé finale",
+    "rules": [
+      "Fragment Europe: première lettre du mot trouvé",
+      "Fragment Asie: séquence de 2 directions basée sur l'horaire",
+      "Fragment Amériques: lettre joker du système"
+    ]
+  },
+  "expectedKey": "MONDE→↑→↑",
   "jokerLetter": "X",
-  "expectedKey": "MONDE→→A",
-  "hint": "Combinez les fragments des énigmes résolues"
+  "finalWindow": {
+    "durationSeconds": 30,
+    "description": "Fenêtre de 30s pour soumettre la clé finale après passage en étape FINAL"
+  },
+  "hint": "Combinez le mot de 5 lettres avec la séquence de 4 directions (←→↑↓)",
+  "pedagogicalNote": "La clé finale mélange linguistique, géographie et logique"
 }
